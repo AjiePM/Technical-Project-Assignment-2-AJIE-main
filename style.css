@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-image : url(bmi.jpg);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  
+
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+
+}
+.box{
+    min-width: 400px;
+    background:white ;
+    border-radius: 40px;
+    text-align: center;
+    position: relative;
+    
+}
+h1{
+    font-weight: bold;
+    font-size: 35px;
+    padding: 30px 0;
+}
+
+.ajie{
+    padding: 0 30px;
+}
+
+.input{
+    background: white;
+    border-radius: 30px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.input label{
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.input input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid red;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+}
+button#Calculatator{
+    color: white;
+    background: rgb(255, 145, 0);
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 20 px 0;
+    width: 100%;
+    outline: none;
+    border: none;
+    transition: backgraund .2s ease;
+
+}
+button #Calculatator :hover{
+    background: black;
+}
+
+.result p {
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    margin-bottom: 15px;   
+    padding-bottom: 20px;
+}
+
+.result #result{
+    font-size: 30px;
+    font-weight: 900;
+    color: blue;
+    background-color: rgb(209, 209, 19);
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 55px;
+    margin-bottom: 25px;
+}
+
+#comment{
+    color: brown;
+    font-weight: 800;
+}
